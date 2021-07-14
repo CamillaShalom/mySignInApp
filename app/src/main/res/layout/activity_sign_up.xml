@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    tools:context=".SignUpActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="40dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="132dp">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_launcher_foreground"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <EditText
+            android:id="@+id/edtxtfname"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="FirstName"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/edtxtsname"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="SecondName"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/edtxtemail"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/edtxtphone"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/edtxtpasswrd"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnsignup"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="SignUp"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            app:backgroundTint="@color/pink" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".SignInActivity2">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="121dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <EditText
+            android:id="@+id/edtxtusername"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="UserName"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+
+            />
+
+        <EditText
+            android:id="@+id/edtxtpasswrd1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="64dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnsignin1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="SignIn"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            app:backgroundTint="@color/pink" />
+
+        <Button
+            android:id="@+id/btnsignup1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="SignUp"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            app:backgroundTint="@color/pink" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
